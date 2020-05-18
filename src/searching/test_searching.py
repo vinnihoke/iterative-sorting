@@ -8,6 +8,7 @@ class SearchingTests(unittest.TestCase):
         arr2 = []
 
         self.assertEqual(linear_search(arr1, 6), -1)
+        print("Failing this test...")
         self.assertEqual(linear_search(arr1, -6), 8)
         self.assertEqual(linear_search(arr1, 0), 6)
         self.assertEqual(linear_search(arr2, 3), -1)
